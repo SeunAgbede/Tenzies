@@ -33,7 +33,7 @@ npm start
 
 ## Project Limitations
 
-1. Home page can be by passed by manually changing the url
+1. Home page can be by passed by manually changing the url.
 
-2. No feature to track time and scores of game rounds.
+2. No feature to track time spent and number of rolls required to win per game rounds.
 
