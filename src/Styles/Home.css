@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home h3 {
+    margin: 25px 0 40px 0;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+.home--form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name--input{
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid #D5D4D8;
+    text-indent: 20px;
+}
+
+
+
