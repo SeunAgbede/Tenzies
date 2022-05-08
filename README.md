@@ -9,7 +9,7 @@ Bob is an amazing tutor and I highly recommend this course for anyone trying to 
 
 
 ## Run Locally
-======
+
 Clone repo
 ```
 git clone https://github.com/SeunAgbede/Tenzies.git
@@ -32,7 +32,7 @@ npm start
 
 
 ## Project Limitations
-======
+
 1. Home page can be by passed by manually changing the url
 
 2. No feature to track time and scores of game rounds.
