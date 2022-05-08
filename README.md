@@ -35,5 +35,5 @@ npm start
 
 1. Home page can be by passed by manually changing the url.
 
-2. No feature to track time spent and number of rolls required to win per game rounds.
+2. No feature to track time and number of rolls required to win game rounds.
 
