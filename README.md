@@ -1,4 +1,4 @@
-# Tenzies
+# :game_die: Tenzies 
 
 My first React project on my journey to learing React. This project is a spin off from one of the capstone projects on the [Learn React for free coure](https://scrimba.com/learn/learnreact) by [Bob Ziroll](https://twitter.com/bobziroll). 
 
