@@ -1,4 +1,4 @@
-# :sparkles: Tenzies :sparkles:
+# Tenzies
 
 My first React project on my journey to learing React. This project is a spin off from one of the capstone projects on the [Learn React for free coure](https://scrimba.com/learn/learnreact) by [Bob Ziroll](https://twitter.com/bobziroll). 
 
@@ -8,13 +8,32 @@ Bob is an amazing tutor and I highly recommend this course for anyone trying to 
 > See a live version of the project **[HERE](https://aesthetic-brigadeiros-5d1963.netlify.app/)**
 
 
-___
-
 ## Run Locally
+======
+Clone repo
+```
+git clone https://github.com/SeunAgbede/Tenzies.git
+```
 
-[I'm an inline-style link](https://www.google.com)
+Change directory
+```
+cd Tenzies
+```
 
-
+Download dependencies
 ```
 npm install
 ```
+
+Execute the start script 
+```
+npm start
+```
+
+
+## Project Limitations
+======
+1. Home page can be by passed by manually changing the url
+
+2. No feature to track time and scores of game rounds.
+
