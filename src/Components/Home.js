@@ -4,6 +4,8 @@ import "../Styles/Home.css"
 
 export default function Home() {
 
+    localStorage.clear()
+
     const [name, setName] = React.useState("user")
 
     // Handling data from the input field
@@ -37,7 +39,7 @@ export default function Home() {
                         required
                     />
 
-                    <input className="roll--btn" type="submit" value="Start Game" />
+                    <input className="roll--btn-1" type="submit" value="Start Game" />
                 </form>
 
             </div>

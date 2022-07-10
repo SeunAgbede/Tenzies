@@ -2,14 +2,15 @@ import React from "react"
 import Die from "../Components/Die"
 import { nanoid } from "nanoid"
 import Confetti from 'react-confetti'
-import {useLocation} from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 
 export default function Game() {
 
+
     const location = useLocation();
     let userName = location.state
-   
+
 
     //Creates an array and pushes 10 random die number objects in them 
     function generateNewDie() {
@@ -50,6 +51,7 @@ export default function Game() {
             setDiceNum(allNewDice())
             setStatRoll(0)
             setGameTime(0)
+
         }
     }
 
@@ -90,14 +92,12 @@ export default function Game() {
         }
     }, [diceNum])
 
-    
-
 
     return (
+
         <main>
 
             {tenzies && <Confetti />}
-
 
             <h1 className="title">Tenzies</h1>
 
@@ -105,17 +105,13 @@ export default function Game() {
 
             {/* No of rolls and game time */}
             <div className="user-info">
-                
-                {/* addinga dummy username if user doesn't inputname */}
-                <p>Hello, <strong>{userName ? userName : "User"}</strong></p>
 
-                
-                <div className="user-info-stats">
-                    <p>No of Rolls : {statRoll}</p>
-                    <p>Game time : {gameTime} s</p>
-                </div>
+                {/* adding a dummy username if user doesn't inputname */}
+                <p>Hi <strong>{userName ? userName : "User"}</strong></p>
+                <p>No of Rolls : <strong>{statRoll}</strong></p>
+                <p>Game time : <strong>{gameTime}s</strong> </p>
+               
             </div>
-
 
             <div className="die--container">
                 {diceElements}
@@ -124,6 +120,10 @@ export default function Game() {
             {tenzies && <p className="win"><strong>Congratulations!</strong> You won!</p>}
 
             <button className="roll--btn" onClick={rollDice}>{tenzies ? "New Game" : "Roll"}</button>
+
+            
+         
         </main>
     )
 }
+

@@ -19,7 +19,7 @@ export default function Layout() {
                 <span  style={styles} class="material-symbols-outlined">home
                 </span>
             </Link>
-
+            
             <Outlet />
         </div>
     
